@@ -101,7 +101,10 @@ Apresentamos uma análise individual de cada tarefa realizada pelos participante
 
 ### Tarefa 5 - Selecionar um Modelo de Feedback
 
-**Descrição**: O usuário deve escolher um modelo de feedback baseado em comportamento.  
+**Descrição**: O usuário deve escolher um modelo de feedback baseado em comportamento. 
+
+![](/Imagens/usab5.png)
+
 **Tempo médio**: 7.2s  
 **Taxa de sucesso**: 100%  
 **Taxa de erro de clique**: 35.7%  
