@@ -24,7 +24,7 @@ As etapas para a construção e validação do protótipo foram organizadas da s
 
 ### Decisões Tomadas
 
-- **Assinatura do Glide Business**: contratado por U$ 249,00 mensais. Cancelamento necessário até o dia **10/03/2025**.
+- **Assinatura do Glide Business**: contratado por U$ 249,00 mensais. Cancelamento necessário até o dia **10/03/2025**;
 - **Assinatura da OpenAI API**: Plataforma **platform.openai.com** com crédito inicial de **U$ 5,00**.
 
 ### Arquitetura e Tecnologias
@@ -43,20 +43,13 @@ As etapas para a construção e validação do protótipo foram organizadas da s
   
   - A versão gratuita do Glide não oferece suporte para integrações, chamadas de APIs e uso de Google Sheets;
   - A ausência de suporte ao Google Sheets inviabilizou a alternativa de usar Google Sheets, Apps Script e Pipedream (webhook) para contornar as limitações. O fluxo planejado seria:
-  
-
-```mermaid
-graph TD
-    A[Glide] -->|Chama| B[Pipedream]
-    B -->|POST| C[Google Sheets (Aba Entrada)]
-    C -->|Aciona| D[Apps Script]
-    D -->|POST e GET| E[API OpenAI]
-    E -->|Retorno| D
-    D -->|Salva| F[Google Sheets (Aba Saída)]
-    F -->|Chama| B
-    B -->|Retorna| A
-```
-
+    1. Glide chamaria o Pipedream;
+    2. Pipedream faria um POST no Google Sheets (aba entrada);
+    3. Google Sheets acionaria o Apps Script;
+    4. Apps Script faria POST e GET na API OpenAI;
+    5. Apps Script pegaria o retorno e salvaria no Google Sheets (aba saída);
+    6. Google Sheets chamaria o Pipedream;
+    7. Pipedream retornaria para o Glide.
   - Devido a essas restrições, a versão gratuita do Glide não atendeu às necessidades do projeto.
 
 - **Solução Adotada**:
