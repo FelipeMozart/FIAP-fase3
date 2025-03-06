@@ -50,6 +50,12 @@ Apresentamos uma análise individual de cada tarefa realizada pelos participante
 ### Tarefa 1 - Iniciar um Feedback
 
 **Descrição**: O usuário precisa iniciar um novo feedback na plataforma.  
+
+![](/Imagens/usab1.png)
+
+
+
+
 **Tempo médio**: 22.5s  
 **Taxa de sucesso**: 100%  
 **Taxa de erro de clique**: 45.9%  
@@ -58,6 +64,12 @@ Apresentamos uma análise individual de cada tarefa realizada pelos participante
 ### Tarefa 2 - Esclarecer uma Dúvida
 
 **Descrição**: O usuário deve encontrar uma resposta para sua dúvida navegando pela interface.  
+
+![](/Imagens/usab2.png)
+![](/Imagens/usab21.png)
+
+
+
 **Tempo médio**: 41.9s  
 **Taxa de sucesso**: 100%  
 **Taxa de erro de clique**: 64.5%  
@@ -65,7 +77,12 @@ Apresentamos uma análise individual de cada tarefa realizada pelos participante
 
 ### Tarefa 3 - Copiar um Feedback Sugerido pela IA
 
-**Descrição**: O usuário deve utilizar a IA para gerar um feedback e copiá-lo.  
+**Descrição**: O usuário deve utilizar a IA para gerar um feedback e copiá-lo. 
+
+![](/Imagens/usab3.png)
+![](/Imagens/usab31.png)
+![](/Imagens/usab32.png)
+
 **Tempo médio**: 259s  
 **Taxa de sucesso**: 100%  
 **Taxa de erro de clique**: 37.5%  
@@ -74,7 +91,9 @@ Apresentamos uma análise individual de cada tarefa realizada pelos participante
 
 ### Tarefa 4 - Realizar uma Busca
 
-**Descrição**: O usuário deve encontrar um colaborador na interface.  
+**Descrição**: O usuário deve encontrar um colaborador na interface.
+
+![](/Imagens/usab4.png)
 **Tempo médio**: 21s  
 **Taxa de sucesso**: 100%  
 **Taxa de erro de clique**: 57.1%  
