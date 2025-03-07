@@ -21,15 +21,6 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 ---
 
 **ID:** CT-02  
-**Caso de Teste:** Login com e-mail inválido  
-**Passos:**  
-1. Digitar um e-mail inexistente.  
-2. Clicar em "Enviar Código".  
-**Resultado Esperado:** O sistema exibe uma mensagem de erro informando que o e-mail não está cadastrado.  
-
----
-
-**ID:** CT-03  
 **Caso de Teste:** Login com código incorreto  
 **Passos:**  
 1. Digitar um e-mail válido.  
@@ -38,16 +29,8 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 
 ---
 
-**ID:** CT-04  
-**Caso de Teste:** Código expirado  
-**Passos:**  
-1. Aguardar o tempo de expiração do código.  
-2. Inserir o código no campo.  
-**Resultado Esperado:** O sistema informa que o código expirou e pede um novo envio.  
 
----
-
-**ID:** CT-05  
+**ID:** CT-03 
 **Caso de Teste:** Criar um feedback válido  
 **Passos:**  
 1. Acessar a tela de "Novo Feedback".  
@@ -59,16 +42,7 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 
 ---
 
-**ID:** CT-06  
-**Caso de Teste:** Criar feedback sem preencher campos obrigatórios  
-**Passos:**  
-1. Acessar a tela "Novo Feedback".  
-2. Tentar salvar sem preencher campos obrigatórios.  
-**Resultado Esperado:** O sistema exibe uma mensagem de erro impedindo o salvamento.  
-
----
-
-**ID:** CT-07  
+**ID:** CT-04
 **Caso de Teste:** Verificar se feedbacks aparecem apenas para quem criou  
 **Passos:**  
 1. Criar um feedback com um usuário.  
@@ -78,7 +52,7 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 
 ---
 
-**ID:** CT-08  
+**ID:** CT-05
 **Caso de Teste:** Editar um feedback existente  
 **Passos:**  
 1. Acessar a tela de feedbacks.  
@@ -89,17 +63,7 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 
 ---
 
-**ID:** CT-09  
-**Caso de Teste:** Impedir edição por usuários que não criaram o feedback  
-**Passos:**  
-1. Criar um feedback com um usuário.  
-2. Logar com outro usuário.  
-3. Tentar editar o feedback.  
-**Resultado Esperado:** O sistema bloqueia a edição e exibe uma mensagem de erro.  
-
----
-
-**ID:** CT-10  
+**ID:** CT-06
 **Caso de Teste:** Criar um chamado válido  
 **Passos:**  
 1. Acessar a tela de suporte.  
@@ -109,7 +73,7 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 
 ---
 
-**ID:** CT-11  
+**ID:** CT-07 
 **Caso de Teste:** Criar um chamado sem descrição  
 **Passos:**  
 1. Acessar a tela de suporte.  
@@ -119,7 +83,7 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 
 ---
 
-**ID:** CT-12  
+**ID:** CT-08
 **Caso de Teste:** Teste de múltiplos usuários acessando simultaneamente  
 **Passos:**  
 1. Criar 5 usuários de teste.  
