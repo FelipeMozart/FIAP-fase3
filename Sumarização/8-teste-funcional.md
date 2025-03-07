@@ -7,20 +7,9 @@ Plano de teste funcional manual para validar o protótipo e a aplicação Glide,
 ## Casos de Teste
 
 
-### Caso 1: Validar Protótipo em Baixa Fidelidade
-- **Nome**: validar-prototipo-baixa-fidelidade
-- **Descrição**: Validar manualmente o protótipo em baixa fidelidade (Rabiscoframe) para garantir que os fluxos principais estão claros.
-- **Especificação**:
-  - **Tipo**: manual
-  - **Passos**:
-    1. Acessar o protótipo em baixa fidelidade.
-    2. Navegar pelos fluxos principais: "Iniciar um feedback", "Esclarecer uma dúvida", "Selecionar um modelo de feedback".
-    3. Verificar se os fluxos estão claros e funcionais.
-  - **Resultado Esperado**: Os fluxos principais devem ser compreensíveis e navegáveis.
-
 ---
 
-### Caso 2: Validar Protótipo em Alta Fidelidade
+### Caso 1: Validar Protótipo em Alta Fidelidade
 - **Nome**: validar-prototipo-alta-fidelidade
 - **Descrição**: Validar manualmente o protótipo em alta fidelidade (Figma) para verificar a interface visual e funcionalidade.
 - **Especificação**:
@@ -33,7 +22,7 @@ Plano de teste funcional manual para validar o protótipo e a aplicação Glide,
 
 ---
 
-### Caso 3: Validar Teste de Usabilidade
+### Caso 2: Validar Teste de Usabilidade
 - **Nome**: validar-teste-usabilidade
 - **Descrição**: Validar manualmente o teste de usabilidade configurado no Maze com 19 participantes.
 - **Especificação**:
@@ -46,7 +35,7 @@ Plano de teste funcional manual para validar o protótipo e a aplicação Glide,
 
 ---
 
-### Caso 4: Validar Integração Glide e OpenAI
+### Caso 3: Validar Integração Glide e OpenAI
 - **Nome**: validar-integracao-glide-openai
 - **Descrição**: Validar manualmente a integração entre Glide e OpenAI para geração de feedbacks estruturados.
 - **Especificação**:
@@ -59,7 +48,7 @@ Plano de teste funcional manual para validar o protótipo e a aplicação Glide,
 
 ---
 
-### Caso 5: Validar Limites da Versão Free do Glide
+### Caso 4: Validar Limites da Versão Free do Glide
 - **Nome**: validar-limites-versao-free-glide
 - **Descrição**: Testar manualmente as limitações da versão gratuita do Glide para integração com AI e Google Sheets.
 - **Especificação**:
@@ -72,7 +61,7 @@ Plano de teste funcional manual para validar o protótipo e a aplicação Glide,
 
 ---
 
-### Caso 6: Validar Implementação da Versão Business do Glide
+### Caso 5: Validar Implementação da Versão Business do Glide
 - **Nome**: validar-implementacao-versao-business-glide
 - **Descrição**: Validar manualmente a implementação da versão Business do Glide para superar as limitações e garantir a funcionalidade principal do MVP.
 - **Especificação**:
