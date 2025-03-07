@@ -18,7 +18,9 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 4. Inserir código corretamente.  
 5. Acessar a aplicação.  
 **Resultado Esperado:** O usuário é autenticado e acessa o sistema.  
+**Execução e Resultado Alcançado**:
 
+![](/Imagens/ct1.png)
 ---
 
 **ID:** CT-02  
