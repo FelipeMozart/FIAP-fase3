@@ -21,6 +21,7 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 **Execução e Resultado Alcançado**:
 
 ![](/Imagens/ct1.png)
+
 ---
 
 **ID:** CT-02  
@@ -30,6 +31,10 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 1. Digitar um e-mail válido.  
 2. Inserir um código incorreto.  
 **Resultado Esperado:** O sistema exibe uma mensagem de erro e impede o login.  
+**Execução e Resultado Alcançado**:
+
+![](/Imagens/ct2.png)
+
 
 ---
 
@@ -44,6 +49,8 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 4. Visualizar feedback gerado.  
 5. Editar se necessário e salvar.  
 **Resultado Esperado:** O feedback é salvo corretamente e aparece na lista.  
+**Execução e Resultado Alcançado**:
+
 
 ---
 
@@ -75,9 +82,12 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 **Caso de Teste:** Criar um chamado válido  
 **Passos:**  
 1. Acessar a tela de suporte.  
-2. Preencher motivo e descrição.  
-3. Clicar em "Abrir Chamado".  
-**Resultado Esperado:** O chamado é salvo corretamente e aparece na lista do usuário.  
+2. Preencher os campos obrigatórios.  
+3. Clicar em "Enviar".  
+**Resultado Esperado:** O chamado é salvo corretamente e aparece a mensagem de sucesso.  
+**Execução e Resultado Alcançado**:
+
+![](/Imagens/ct6.png)
 
 ---
 
@@ -88,7 +98,11 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 1. Acessar a tela de suporte.  
 2. Deixar o campo de descrição em branco.  
 3. Tentar salvar.  
-**Resultado Esperado:** O sistema exibe uma mensagem de erro impedindo o salvamento.  
+**Resultado Esperado:** O sistema não deve permitir clicar no botão "Enviar". 
+**Execução e Resultado Alcançado**:
+
+![](/Imagens/ct7.png)
+
 
 ---
 
