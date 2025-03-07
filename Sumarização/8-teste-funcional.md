@@ -9,6 +9,7 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 
 
 **ID:** CT-01  
+
 **Caso de Teste:** Login com e-mail válido  
 **Passos:**  
 1. Acessar a tela de login.  
@@ -21,6 +22,7 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 ---
 
 **ID:** CT-02  
+
 **Caso de Teste:** Login com código incorreto  
 **Passos:**  
 1. Digitar um e-mail válido.  
@@ -31,6 +33,7 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 
 
 **ID:** CT-03 
+
 **Caso de Teste:** Criar um feedback válido  
 **Passos:**  
 1. Acessar a tela de "Novo Feedback".  
@@ -43,6 +46,7 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 ---
 
 **ID:** CT-04
+
 **Caso de Teste:** Verificar se feedbacks aparecem apenas para quem criou  
 **Passos:**  
 1. Criar um feedback com um usuário.  
@@ -53,6 +57,7 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 ---
 
 **ID:** CT-05
+
 **Caso de Teste:** Editar um feedback existente  
 **Passos:**  
 1. Acessar a tela de feedbacks.  
@@ -64,6 +69,7 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 ---
 
 **ID:** CT-06
+
 **Caso de Teste:** Criar um chamado válido  
 **Passos:**  
 1. Acessar a tela de suporte.  
@@ -74,6 +80,7 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 ---
 
 **ID:** CT-07 
+
 **Caso de Teste:** Criar um chamado sem descrição  
 **Passos:**  
 1. Acessar a tela de suporte.  
@@ -84,6 +91,7 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 ---
 
 **ID:** CT-08
+
 **Caso de Teste:** Teste de múltiplos usuários acessando simultaneamente  
 **Passos:**  
 1. Criar 5 usuários de teste.  
