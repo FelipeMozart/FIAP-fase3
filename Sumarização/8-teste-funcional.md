@@ -1,82 +1,128 @@
 
-# Plano de Teste Funcional Manual
+# Plano de Teste
 
-Plano de teste funcional manual para validar o protótipo e a aplicação Glide, incluindo funcionalidades, integração com AI e experiência do usuário.
+O plano de testes da aplicação Glide foi elaborado com o objetivo de garantir a qualidade e o correto funcionamento das principais funcionalidades do sistema.
+
+Este documento descreve uma série de casos de teste que cobrem diversos cenários, como login  de usuários, criação e gerenciamento de feedbacks, abertura de chamados e testes de desempenho com múltiplos usuários. 
+
+Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo uma validação clara e objetiva do comportamento do sistema. A execução desses testes é necessária para identificar possíveis falhas e assegurar que a aplicação atenda aos requisitos funcionais esperados pelos usuários.
 
 
-## Casos de Teste
-
-
----
-
-### Caso 1: Validar Protótipo em Alta Fidelidade
-- **Nome**: validar-prototipo-alta-fidelidade
-- **Descrição**: Validar manualmente o protótipo em alta fidelidade (Figma) para verificar a interface visual e funcionalidade.
-- **Especificação**:
-  - **Tipo**: manual
-  - **Passos**:
-    1. Acessar o protótipo em alta fidelidade no Figma.
-    2. Realizar as tarefas: "Iniciar um feedback", "Esclarecer uma dúvida", "Copiar um feedback sugerido pela IA", "Realizar uma busca", "Selecionar um modelo de feedback".
-    3. Verificar a consistência visual e funcionalidade.
-  - **Resultado Esperado**: A interface deve ser visualmente consistente e funcional.
+**ID:** CT-01  
+**Caso de Teste:** Login com e-mail válido  
+**Passos:**  
+1. Acessar a tela de login.  
+2. Digitar e-mail válido.  
+3. Receber código no e-mail.  
+4. Inserir código corretamente.  
+5. Acessar a aplicação.  
+**Resultado Esperado:** O usuário é autenticado e acessa o sistema.  
 
 ---
 
-### Caso 2: Validar Teste de Usabilidade
-- **Nome**: validar-teste-usabilidade
-- **Descrição**: Validar manualmente o teste de usabilidade configurado no Maze com 19 participantes.
-- **Especificação**:
-  - **Tipo**: manual
-  - **Passos**:
-    1. Revisar os resultados do teste de usabilidade no Maze.
-    2. Analisar as métricas: "Taxa de sucesso", "Taxa de abandono", "Taxa de erros de clique (misclicks)", "Tempo médio por tela".
-    3. Identificar pontos de melhoria com base nas métricas.
-  - **Resultado Esperado**: As métricas devem indicar uma experiência de usuário satisfatória.
+**ID:** CT-02  
+**Caso de Teste:** Login com e-mail inválido  
+**Passos:**  
+1. Digitar um e-mail inexistente.  
+2. Clicar em "Enviar Código".  
+**Resultado Esperado:** O sistema exibe uma mensagem de erro informando que o e-mail não está cadastrado.  
 
 ---
 
-### Caso 3: Validar Integração Glide e OpenAI
-- **Nome**: validar-integracao-glide-openai
-- **Descrição**: Validar manualmente a integração entre Glide e OpenAI para geração de feedbacks estruturados.
-- **Especificação**:
-  - **Tipo**: manual
-  - **Passos**:
-    1. Configurar a integração entre Glide e OpenAI.
-    2. Testar a geração de feedbacks estruturados utilizando o modelo GPT-4.
-    3. Verificar se os feedbacks gerados estão alinhados com o esperado.
-  - **Resultado Esperado**: A integração deve gerar feedbacks estruturados corretamente.
+**ID:** CT-03  
+**Caso de Teste:** Login com código incorreto  
+**Passos:**  
+1. Digitar um e-mail válido.  
+2. Inserir um código incorreto.  
+**Resultado Esperado:** O sistema exibe uma mensagem de erro e impede o login.  
 
 ---
 
-### Caso 4: Validar Limites da Versão Free do Glide
-- **Nome**: validar-limites-versao-free-glide
-- **Descrição**: Testar manualmente as limitações da versão gratuita do Glide para integração com AI e Google Sheets.
-- **Especificação**:
-  - **Tipo**: manual
-  - **Passos**:
-    1. Configurar a versão gratuita do Glide.
-    2. Testar as funcionalidades: "Integração com AI", "Chamadas de API", "Uso de Google Sheets".
-    3. Identificar limitações e restrições.
-  - **Resultado Esperado**: As limitações da versão gratuita devem ser documentadas.
+**ID:** CT-04  
+**Caso de Teste:** Código expirado  
+**Passos:**  
+1. Aguardar o tempo de expiração do código.  
+2. Inserir o código no campo.  
+**Resultado Esperado:** O sistema informa que o código expirou e pede um novo envio.  
 
 ---
 
-### Caso 5: Validar Implementação da Versão Business do Glide
-- **Nome**: validar-implementacao-versao-business-glide
-- **Descrição**: Validar manualmente a implementação da versão Business do Glide para superar as limitações e garantir a funcionalidade principal do MVP.
-- **Especificação**:
-  - **Tipo**: manual
-  - **Passos**:
-    1. Configurar a versão Business do Glide.
-    2. Testar as funcionalidades: "Integração nativa com AI", "Coluna Generated Column (AI)", "Componente de integração AI na interface".
-    3. Verificar se todas as funcionalidades estão operacionais.
-  - **Resultado Esperado**: A versão Business deve atender às necessidades do MVP sem restrições.
+**ID:** CT-05  
+**Caso de Teste:** Criar um feedback válido  
+**Passos:**  
+1. Acessar a tela de "Novo Feedback".  
+2. Preencher os campos obrigatórios.  
+3. Clicar em "Gerar Feedback".  
+4. Visualizar feedback gerado.  
+5. Editar se necessário e salvar.  
+**Resultado Esperado:** O feedback é salvo corretamente e aparece na lista.  
 
+---
 
-### **Execução dos Testes**
+**ID:** CT-06  
+**Caso de Teste:** Criar feedback sem preencher campos obrigatórios  
+**Passos:**  
+1. Acessar a tela "Novo Feedback".  
+2. Tentar salvar sem preencher campos obrigatórios.  
+**Resultado Esperado:** O sistema exibe uma mensagem de erro impedindo o salvamento.  
 
-- **Responsável**: Equipe de construção.
-- **Ferramentas**: Protótipos (Rabiscoframe, Figma), Maze, Glide (versões Free e Business), OpenAI.
-- **Critérios de Aceitação**: Cada caso de teste deve atender ao resultado esperado descrito.
+---
 
-Este plano de teste é focado em validações manuais para garantir que as funcionalidades e a experiência do usuário estejam alinhadas com os objetivos do projeto.
+**ID:** CT-07  
+**Caso de Teste:** Verificar se feedbacks aparecem apenas para quem criou  
+**Passos:**  
+1. Criar um feedback com um usuário.  
+2. Logar com outro usuário.  
+3. Acessar a lista de feedbacks.  
+**Resultado Esperado:** O segundo usuário não vê feedbacks criados por outros usuários.  
+
+---
+
+**ID:** CT-08  
+**Caso de Teste:** Editar um feedback existente  
+**Passos:**  
+1. Acessar a tela de feedbacks.  
+2. Selecionar um feedback criado.  
+3. Editar o texto.  
+4. Salvar as alterações.  
+**Resultado Esperado:** O feedback é atualizado corretamente no banco.  
+
+---
+
+**ID:** CT-09  
+**Caso de Teste:** Impedir edição por usuários que não criaram o feedback  
+**Passos:**  
+1. Criar um feedback com um usuário.  
+2. Logar com outro usuário.  
+3. Tentar editar o feedback.  
+**Resultado Esperado:** O sistema bloqueia a edição e exibe uma mensagem de erro.  
+
+---
+
+**ID:** CT-10  
+**Caso de Teste:** Criar um chamado válido  
+**Passos:**  
+1. Acessar a tela de suporte.  
+2. Preencher motivo e descrição.  
+3. Clicar em "Abrir Chamado".  
+**Resultado Esperado:** O chamado é salvo corretamente e aparece na lista do usuário.  
+
+---
+
+**ID:** CT-11  
+**Caso de Teste:** Criar um chamado sem descrição  
+**Passos:**  
+1. Acessar a tela de suporte.  
+2. Deixar o campo de descrição em branco.  
+3. Tentar salvar.  
+**Resultado Esperado:** O sistema exibe uma mensagem de erro impedindo o salvamento.  
+
+---
+
+**ID:** CT-12  
+**Caso de Teste:** Teste de múltiplos usuários acessando simultaneamente  
+**Passos:**  
+1. Criar 5 usuários de teste.  
+2. Cada usuário cria um feedback simultaneamente.  
+3. Verificar se há travamentos ou inconsistências.  
+**Resultado Esperado:** O sistema deve continuar funcionando sem erro ou lentidão.  
