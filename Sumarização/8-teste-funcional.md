@@ -63,7 +63,9 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 2. Logar com outro usuário.  
 3. Acessar a lista de feedbacks.  
 **Resultado Esperado:** O segundo usuário não vê feedbacks criados por outros usuários.
+**Execução e Resultado Alcançado**:
 
+![](/Imagens/ct4.png)
 
 
 ---
