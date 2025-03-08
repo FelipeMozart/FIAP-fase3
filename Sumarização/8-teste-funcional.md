@@ -45,12 +45,13 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 **Passos:**  
 1. Acessar a tela de "Novo Feedback".  
 2. Preencher os campos obrigatórios.  
-3. Clicar em "Gerar Feedback".  
-4. Visualizar feedback gerado.  
+3. Clicar em "Assistente AI"; 
+4. Visualizar feedback final gerado; 
 5. Editar se necessário e salvar.  
 **Resultado Esperado:** O feedback é salvo corretamente e aparece na lista.  
 **Execução e Resultado Alcançado**:
 
+![](/Imagens/ct3.png)
 
 ---
 
@@ -61,7 +62,9 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 1. Criar um feedback com um usuário.  
 2. Logar com outro usuário.  
 3. Acessar a lista de feedbacks.  
-**Resultado Esperado:** O segundo usuário não vê feedbacks criados por outros usuários.  
+**Resultado Esperado:** O segundo usuário não vê feedbacks criados por outros usuários.
+
+
 
 ---
 
@@ -74,6 +77,9 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 3. Editar o texto.  
 4. Salvar as alterações.  
 **Resultado Esperado:** O feedback é atualizado corretamente no banco.  
+**Execução e Resultado Alcançado**:
+
+![](/Imagens/ct5.png)
 
 ---
 
