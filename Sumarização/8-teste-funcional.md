@@ -63,7 +63,9 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 2. Logar com outro usuário.  
 3. Acessar a lista de feedbacks.  
 **Resultado Esperado:** O segundo usuário não vê feedbacks criados por outros usuários.
+
 **Execução e Resultado Alcançado**:
+
 
 ![](/Imagens/ct4.png)
 
@@ -113,12 +115,71 @@ Cada caso de teste inclui passos detalhados e o resultado esperado, permitindo u
 
 
 ---
-
 **ID:** CT-08
+
+**Caso de Teste:** Alterar perfil de usuário. 
+**Passos:**  
+1. Navegar até a home.  
+2. Clicar no email de usuário e, depois, em "Ver perfil".  
+3. Preencher os campos necessários.  
+4. Clicar em "Enviar".
+**Resultado Esperado:** O sistema deve registrar as atualizações.  
+**Execução e Resultado Alcançado**:
+
+![](/Imagens/ct8.png)
+
+---
+**ID:** CT-09
+
+**Caso de Teste:** Buscar perfil de usuário. 
+**Passos:**  
+1. Navegar até a home.  
+2. No campo de pesquisa busque por um usuário válido.  
+**Resultado Esperado:** O sistema deve retornar todos os registros de um usuário válido.  
+**Execução e Resultado Alcançado**:
+
+![](/Imagens/ct9.png)
+
+
+---
+**ID:** CT-10
+
+**Caso de Teste:** Buscar perfil de usuário e filtrar por um ciclo específico. 
+**Passos:**  
+1. Navegar até a home.  
+2. No campo de pesquisa busque por um usuário válido. 
+3. Aplicar filtro para retornar apenas apenas um ciclo.
+**Resultado Esperado:** O sistema deve retornar o registro de um usuário válido.  
+**Execução e Resultado Alcançado**:
+
+![](/Imagens/ct10.png)
+
+---
+
+**ID:** CT-11
 
 **Caso de Teste:** Teste de múltiplos usuários acessando simultaneamente  
 **Passos:**  
 1. Criar 5 usuários de teste.  
 2. Cada usuário cria um feedback simultaneamente.  
 3. Verificar se há travamentos ou inconsistências.  
-**Resultado Esperado:** O sistema deve continuar funcionando sem erro ou lentidão.  
+**Resultado Esperado:** O sistema deve continuar funcionando sem erro ou lentidão.
+
+
+**Execução e Resultado Alcançado**:
+
+Horário de Início: 10:22
+Quantidade de Usuários: 6
+Quantidade de Feedbacks Registrados: 50
+Quantidade de Chamados Registrados: 30
+Distribuição de Usuários e Feedbacks Criados:
+- Andre: SUELI, ALICE e LAZARO;
+- Felipe: OTAVIO, GUILHERME e MARIA;
+- Douglas: ANGELITA, LAZARA e JOAO.
+
+Navegadores utilizados:
+- Google Chrome
+- Microsoft Edge
+- Safari
+
+Observações: o sistema manteve a estabilidade durante o teste, sem apresentar travamentos ou inconsistências.
