@@ -2,7 +2,11 @@
 
 
 # FIAP-fase3
-Apresenta uma documentação sobre processos e atividades que cerceiam a Fase 3 - Build &amp; Ship. 
+
+
+Este repositório serve como uma referência para o desenvolvimento, validação e lançamento da plataforma **Fluir**, documentando todas as etapas e entregáveis necessários para transformar ideias em uma solução funcional e testável.
+
+Aqui, estão documentados todos os artefatos desenvolvidos para atender às solicitações da **Fase 3**, garantindo uma base sólida para a construção do projeto na fase **Build & Ship**:
 
 
 ## Sumarização
