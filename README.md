@@ -13,9 +13,9 @@ Aqui, estão documentados todos os artefatos desenvolvidos para atender às soli
 
 **Equipe**:
 
-André Souza - RM 358998
-Douglas Bernardo - RM 359146
-Felipe Mozart - RM 359047
+- André Souza - RM 358998
+- Douglas Bernardo - RM 359146
+- Felipe Mozart - RM 359047
 
 
 
