@@ -1,7 +1,7 @@
 ![](/Imagens/capa-fluir.png)
 
 
-# FIAP-fase3
+# FIAP :: Tech Challenge :: Fase 3
 
 
 Este repositório serve como uma referência para o desenvolvimento, validação e lançamento da plataforma **Fluir**, documentando todas as etapas e entregáveis necessários para transformar ideias em uma solução funcional e testável.
@@ -9,7 +9,8 @@ Este repositório serve como uma referência para o desenvolvimento, validação
 Aqui, estão documentados todos os artefatos desenvolvidos para atender às solicitações da **Fase 3**, garantindo uma base sólida para a construção do projeto na fase **Build & Ship**.
 
 
-**Grupo: a definir**
+**Grupo: 74**
+
 
 **Equipe**:
 
